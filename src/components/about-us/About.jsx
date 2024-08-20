@@ -47,18 +47,18 @@ const About = () => {
           duration:1.5,
         }}
 
-        className='p-20 px-[300px] flex justify-between font-serif'>
-          <div className='flex flex-col gap-7'>
-            <div className='bg-lime-100 rounded-xl  w-[500px] p-8 text-center text-2xl'>
+        className='lg:p-16 lg:px-[200px] xl:p-20 xl:px-[300px] flex justify-between font-serif'>
+          <div className='flex flex-col lg:gap-4 xl:gap-7'>
+            <div className='bg-lime-100 rounded-xl  lg:w-[30vw] xl:w-[500px] p-8 text-center lg:text-xl xl:text-2xl'>
               <p>{data[0].description}</p>
             </div>
 
-            <div className='bg-lime-100 rounded-xl  w-[500px] text-2xl text-center p-8 py-10'>
+            <div className='bg-lime-100 rounded-xl  xl:w-[500px] lg:text-xl xl:text-2xl text-center p-8 py-10'>
               <p>{data[1].description}</p>
             </div>
           </div>
 
-          <div className='bg-lime-100 rounded-xl h-[480px] w-[500px] text-2xl text-center p-8 float-right mt-16'>
+          <div className='bg-lime-100 rounded-xl lg:h-[600px] xl:h-[480px] xl:w-[500px] lg:text-xl xl:text-2xl text-center p-8 float-right lg:ml-10 lg:mt-8 mt-16'>
             <p>{data[2].description}</p>
           </div>
         </motion.div>
